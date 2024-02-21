@@ -1,0 +1,40 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+  
+  String NomeProduto1;
+ int PrecoProduto= 100;
+ String MarcadoProduto;
+ double QuantidadeProduto = 155;
+ String DescricaoProduto;
+ String NomeProduto;
+ int NumeroProduto123= 69;
+ double PrecodoProduto = 69.75;
+ double EstoqueDisponivel = 175;
+ double TotaldeProdutos = 175.55;
+ 
+ NomeProduto1 ="Pc Gamer";
+ MarcadoProduto ="Dell";
+ DescricaoProduto ="Pc de Alta Qualidade";
+ NomeProduto = "PC";
+ 
+ System.out.println("Nome"  +  NomeProduto1);
+ System.out.println("Preco" +  PrecoProduto);
+ System.out.println("Marca" +  MarcadoProduto);
+ System.out.println("Quantidade" +  QuantidadeProduto);
+ System.out.println("Descricao" +  DescricaoProduto);
+ System.out.println("Nome" +  NomeProduto);
+ System.out.println("Numero" +  NumeroProduto123);
+ System.out.println("Preco" +  PrecodoProduto);
+ System.out.println("Estoque" +  EstoqueDisponivel);
+ System.out.println("Total" +  TotaldeProdutos);
+        
+        
+        
+        
+        
+    }
+}
