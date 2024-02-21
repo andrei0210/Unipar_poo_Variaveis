@@ -1,0 +1,38 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+        String nome;
+         int  idade = 30;
+        double tamanho = 1.83;
+        char sexo = 'M';
+        boolean maior = true;
+        double peso = 75;
+        double telefone = 46984;
+        String cidade;
+        int cep= 85603873;
+        String casa;
+        
+        nome="Andrei";
+        cidade="FB";
+        casa="Branca";
+        
+        
+        System.out.println("Nome" + nome);
+        System.out.println("Idade:" + idade);
+        System.out.println("Altura:" + tamanho);
+        System.out.println("Genero:" + sexo);
+        System.out.println("Tem carteira de motorista? " + maior);
+        System.out.println("Peso " + peso);
+        System.out.println("Telefone " + telefone);
+        System.out.println("Cidade " + cidade);
+        System.out.println("Cep " + cep);
+        System.out.println("Casa " + casa);
+        
+        
+ 
+ 
+    }
+}
