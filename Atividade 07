@@ -3,34 +3,34 @@
 public class ControleEstoque {
     public static void main(String[] args) {
      
-        String NomeProduto;
-        double PrecoProduto= 15;
-        double QuantidadeProduto= 3;
+        String nomeProduto;
+        double precoProduto= 15;
+        double quantidadeProduto= 3;
         
-        NomeProduto ="Tablet";
-        PrecoProduto = 100;
+        nomeProduto ="Tablet";
+        precoProduto = 100;
        
-        String MarcaProduto;
-        MarcaProduto="Lenovo";
+        String marcaProduto;
+        marcaProduto="Lenovo";
 
-        String NomeProduto1;
-        double PrecoProduto1 = 29.99;
-        double QuantidadeProduto1= 3;
+        String nomeProduto1;
+        double precoProduto1 = 29.99;
+        double quantidadeProduto1= 3;
         
-        String MarcaProduto1;
-        MarcaProduto1="Sansunmg";
+        String marcaProduto1;
+        marcaProduto1="Sansunmg";
         
-        NomeProduto1="Fone de Ouvido";
+        nomeProduto1="Fone de Ouvido";
         
         System.out.println(" Dados do Produto");
-        System.out.println("Nome: " + NomeProduto);
-        System.out.println("Marca: " + MarcaProduto);
-        System.out.println("Preco: $ " + PrecoProduto);
-        System.out.println("Quantidade em estoque: " + QuantidadeProduto);
-        System.out.println("Nome: " + NomeProduto1);
-        System.out.println("Preco: $ " + PrecoProduto1);
-        System.out.println("Quantidade em estoque: " + QuantidadeProduto1);
-         System.out.println("Marca: " + MarcaProduto1);
+        System.out.println("Nome: " + nomeProduto);
+        System.out.println("Marca: " + marcaProduto);
+        System.out.println("Preco: $ " + precoProduto);
+        System.out.println("Quantidade em estoque: " + quantidadeProduto);
+        System.out.println("Nome: " + nomeProduto1);
+        System.out.println("Preco: $ " + precoProduto1);
+        System.out.println("Quantidade em estoque: " + quantidadeProduto1);
+         System.out.println("Marca: " + marcaProduto1);
         
         
     }
