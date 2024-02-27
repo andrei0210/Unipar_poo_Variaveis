@@ -5,26 +5,26 @@ public class ControleEstoque {
     public static void main(String[] args) 
     {
         
-        int CodigoProduto= 1;
-        String NomeProduto;
-        String DescricaoProduto;
-        double PrecoProduto = 20;
-        String Categoria;
-        double QuantidadeProduto = 155;
-        double QuantidadeVendida = 55;
-        double SaldoEstoque = QuantidadeProduto-QuantidadeVendida;
+        int codigoProduto= 1;
+        String nomeProduto;
+        String descricaoProduto;
+        double precoProduto = 20;
+        String categoria;
+        double quantidadeProduto = 155;
+        double quantidadeVendida = 55;
+        double saldoEstoque = quantidadeProduto-quantidadeVendida;
         
-        NomeProduto= "Leite Vaca";
-        DescricaoProduto="Leite Rico em Vitaminas";
-        Categoria= "Alimento";
+        nomeProduto= "Leite Vaca";
+        descricaoProduto="Leite Rico em Vitaminas";
+        categoria= "Alimento";
         
-        System.out.println("Nome"  +  NomeProduto);
-        System.out.println("Descricao"  +  DescricaoProduto);
-        System.out.println("Preco"  +  PrecoProduto);
-        System.out.println("Categoria "+ Categoria);
-        System.out.println("Quantidade" + QuantidadeProduto);
-        System.out.println("Quantidade Vendida" + QuantidadeVendida);
-        System.out.println("Saldo Estoque" + SaldoEstoque);
+        System.out.println("Nome"  +  nomeProduto);
+        System.out.println("Descricao"  +  descricaoProduto);
+        System.out.println("Preco"  +  precoProduto);
+        System.out.println("Categoria "+ categoria);
+        System.out.println("Quantidade" + quantidadeProduto);
+        System.out.println("Quantidade Vendida" + quantidadeVendida);
+        System.out.println("Saldo Estoque" + saldoEstoque);
         
         
     
