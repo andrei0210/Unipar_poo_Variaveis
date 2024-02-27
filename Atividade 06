@@ -1,15 +1,15 @@
 public class Main {
     public static void main(String[] args) {
        
-        int NumeroProduto = 12; 
-        double PrecoProduto = 25; 
-        String DescricaoProduto;
+        int numeroProduto = 12; 
+        double precoProduto = 25; 
+        String descricaoProduto;
         
-       DescricaoProduto = "Fone de ouvido Bluetooth";
+       descricaoProduto = "Fone de ouvido Bluetooth";
         
         System.out.println("Dados do Produto:");
-        System.out.println("Numero: " + NumeroProduto);
-        System.out.println("Preco: $" + PrecoProduto);
-        System.out.println("Descricao: " + DescricaoProduto);
+        System.out.println("Numero: " + numeroProduto);
+        System.out.println("Preco: $" + precoProduto);
+        System.out.println("Descricao: " + descricaoProduto);
     }
 }
