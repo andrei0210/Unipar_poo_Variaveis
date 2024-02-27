@@ -8,52 +8,52 @@ class HelloWorld {
    
   //smartphone
   
-  String NomeProduto;
-  String MarcaProduto;
-  double PrecoProduto= 1500;
-  double QuantiEstoque= 4;
+  String nomeProduto;
+  String marcaProduto;
+  double precoProduto= 1500;
+  double quantiEstoque= 4;
   
- NomeProduto="Smartphone Motorola";
- MarcaProduto="Motorola";
+ nomeProduto="Smartphone Motorola";
+ marcaProduto="Motorola";
  
  System.out.println("Dados Do Smartphone");
- System.out.println(" Nome: " + NomeProduto);
- System.out.println(" Marca: " + MarcaProduto);
- System.out.println(" Preco: " + PrecoProduto);
- System.out.println(" Saldo Estoque: " + QuantiEstoque);
+ System.out.println(" Nome: " + nomeProduto);
+ System.out.println(" Marca: " + marcaProduto);
+ System.out.println(" Preco: " + precoProduto);
+ System.out.println(" Saldo Estoque: " + quantiEstoque);
  
  
  //Laptop
 
-String Nome;
-String Marca;
-double Preco= 2600;
-double Quantidade = 3;
+String nome;
+String marca;
+double preco= 2600;
+double quantidade = 3;
 
-Nome="Notebook Samsung";
-Marca="Samsung";
+nome="Notebook Samsung";
+marca="Samsung";
 
 System.out.println("Dados Do Laptop");
-System.out.println(" Nome " + Nome);
-System.out.println(" Marca " + Marca);
-System.out.println(" Preco " + Preco);
-System.out.println(" Saldo Estoque " + Quantidade);
+System.out.println(" Nome " + nome);
+System.out.println(" Marca " + marca);
+System.out.println(" Preco " + preco);
+System.out.println(" Saldo Estoque " + quantidade);
 
 //fone de Ouvido Bluetooth
 
-String NomeFone;
-String MarcaFone;
-double PrecoFone= 2600;
-double QuantidadeFone = 3;
+String nomeFone;
+String marcaFone;
+double precoFone= 2600;
+double quantidadeFone = 3;
 
-NomeFone="Fone De Ouvido S/fio Bluetooth";
-MarcaFone="Onyon Store";
+nomeFone="Fone De Ouvido S/fio Bluetooth";
+marcaFone="Onyon Store";
 
 System.out.println("Dados Do Fone de Ouvido Bluetooth ");
-System.out.println(" Nome " + NomeFone);
-System.out.println(" Marca " + MarcaFone);
-System.out.println(" Preco " + PrecoFone);
-System.out.println(" Saldo Estoque " + QuantidadeFone);
+System.out.println(" Nome " + nomeFone);
+System.out.println(" Marca " + marcaFone);
+System.out.println(" Preco " + precoFone);
+System.out.println(" Saldo Estoque " + quantidadeFone);
    
    
     }
